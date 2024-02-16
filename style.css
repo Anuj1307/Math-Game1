@@ -1,0 +1,47 @@
+body
+{
+	/* background: url("https://i.pinimg.com/736x/13/19/dc/1319dcaacb677d44f8004eb7aca35ab4.jpg");
+	background-size: cover; */
+	background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(175,48,126,1) 25%, rgba(253,29,29,1) 55%, rgba(252,153,63,1) 70%, rgba(252,176,69,1) 100%);
+}
+
+	.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+#heading
+{
+	color: rgb(54, 20, 65);
+	margin-top: 3rem;
+	margin-bottom: 5rem;
+	font-weight: bold;
+}
